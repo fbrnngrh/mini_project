@@ -1,0 +1,16 @@
+@media only screen and (max-width: 992px) {
+    .clock__wrapper{
+        justify-content: center;
+    }
+    .clock__top-content{
+        text-align: center;
+    }
+    .count__down-col{
+        
+        text-align: center;
+    }
+    .store__btn{
+        margin-top: 50px;
+    }
+
+}

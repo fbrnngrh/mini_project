@@ -14,11 +14,15 @@
   --heading-text-color: #0a1d37;
 }
 
+
+
 /* reset browser default */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  
 }
 
 body {
@@ -53,4 +57,23 @@ ul {
 a {
   text-decoration: none;
   color: unset;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+.section__title {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 40px 0px;
+  }
 }
