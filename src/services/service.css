@@ -40,6 +40,16 @@
       font-size: 1rem;
     }
 }
+@media only screen and (max-width: 992px) {
+    .service__item {
+        margin-bottom: 1.5rem;
+    }
+    .service__item span i {
+        font-size: 2rem;
+        padding: 5px;
+    }
+   
+}
 
 @media only screen and (max-width: 576px){
     .service__item {

@@ -22,7 +22,7 @@ const Home = () => {
   const [deskmatProducts, setDeskmatProducts] = useState([]);
   const [plateProducts, setPlateProducts] = useState([]);
   const [popularProducts, setPopularProducts] = useState([]);
-  
+
   const year = new Date().getFullYear();
 
   useEffect(() => {
@@ -69,8 +69,8 @@ const Home = () => {
                 </motion.button>
               </div>
             </Col>
-            <Col lg="6" md="6" className="">
-              <div className="hero__img img-fluid text-center">
+            <Col lg="6" md="6">
+              <div className="hero__img img-fluid ">
                 <img src={heroImg} alt="" />
               </div>
             </Col>
@@ -127,7 +127,7 @@ const Home = () => {
       <section className="new__arrivals mb-5">
         <Container>
           <Row>
-          <Col lg="12" className="text-center pb-md-4  mb-md-5">
+            <Col lg="12" className="text-center pb-md-4  mb-md-5">
               <h2 className="section_title">New Arrival</h2>
             </Col>
             <ProductList data={deskmatProducts} />
@@ -139,7 +139,7 @@ const Home = () => {
       <section className="product__popular">
         <Container>
           <Row>
-          <Col lg="12" className="text-center pb-md-4  mb-md-5">
+            <Col lg="12" className="text-center pb-md-4  mb-md-5">
               <h2 className="section_title">Product Popular</h2>
             </Col>
             <ProductList data={popularProducts} />
