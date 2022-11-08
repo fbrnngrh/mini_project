@@ -13,7 +13,7 @@ import { auth } from "../firebase.config";
 import { db } from "../firebase.config";
 
 import { toast } from "react-toastify";
-import { async } from "@firebase/util";
+
 
 const Signup = () => {
   const [email, setEmail] = useState("");
