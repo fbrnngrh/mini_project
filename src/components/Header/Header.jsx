@@ -68,7 +68,7 @@ const Header = () => {
 
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
   const toggleProfileActions = () =>
-    profileActionRef.current.classList.toggle("show__profileActions");
+    profileActionRef.current.classList.toggle("show__profile");
 
   const navigateToCart = () => {
     navigate("/cart");
@@ -119,7 +119,10 @@ const Header = () => {
                   onClick={toggleProfileActions}
                 />
                 <div
-                  className="profile__actions " ref={profileActionRef} onClick={toggleProfileActions}>
+                  className="profile__actions "
+                  ref={profileActionRef}
+                  onClick={toggleProfileActions}
+                >
                   {currentUser ? (
                     <span onClick={logout}>Logout</span>
                   ) : (
