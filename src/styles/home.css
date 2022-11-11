@@ -45,7 +45,8 @@
 
 .timer__count{
     background: var(--primary-color);
-    height: 350px 
+    height: 350px ;
+    
 }
 
 .timer__count img {

@@ -8,9 +8,6 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const Checkout = () => {
-
-
-
   const totalQty = useSelector((state) => state.cart.totalQuantity);
   const totalAmount = useSelector((state) => state.cart.totalAmount);
   return (
@@ -48,7 +45,7 @@ const Checkout = () => {
             <Col lg="4">
               <div className="checkout__cart">
                 <h6>
-                  Total Qty: <span>{totalQty}  Items</span>
+                  Total Qty: <span>{totalQty} Items</span>
                 </h6>
                 <h6>
                   SubTotal : <span>${totalAmount}</span>
@@ -63,7 +60,12 @@ const Checkout = () => {
                 <h4>
                   Total Cost: <span>${totalAmount}</span>
                 </h4>
-                <motion.button whileTap={{scale:0.9}} className="shop__btn auth__btn"><Link to='/thankyou'>Place an Order</Link></motion.button>
+                <motion.button
+                  whileTap={{ scale: 0.9 }}
+                  className="shop__btn auth__btn"
+                >
+                  <Link to="/thankyou">Place an Order</Link>
+                </motion.button>
               </div>
             </Col>
           </Row>

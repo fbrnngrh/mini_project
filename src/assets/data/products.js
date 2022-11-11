@@ -280,7 +280,7 @@ const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Dark deep",
     imgUrl: productImg13,
     category: "switch",
     price: 799,
@@ -324,7 +324,7 @@ const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "coral deep",
     imgUrl: productImg14,
     category: "keycaps",
     price: 799,
@@ -347,7 +347,7 @@ const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "deep",
     imgUrl: productImg15,
     category: "deskmat",
     price: 599,
@@ -370,7 +370,7 @@ const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Nord",
     imgUrl: productImg16,
     category: "deskmat",
     price: 799,
@@ -393,7 +393,7 @@ const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "solid",
     imgUrl: productImg17,
     category: "plate",
     price: 899,
@@ -416,7 +416,7 @@ const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Galaxy",
     imgUrl: productImg18,
     category: "plate",
     price: 699,
@@ -439,7 +439,7 @@ const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "Role night",
     imgUrl: productImg19,
     category: "cable",
     price: 299,
@@ -462,7 +462,7 @@ const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "Timex",
     imgUrl: productImg20,
     category: "cable",
     price: 299,
@@ -485,7 +485,7 @@ const products = [
 
   {
     id: "18",
-    productName: "Rolex Watch",
+    productName: "stringify",
     imgUrl: productImg21,
     category: "cable",
     price: 299,
@@ -508,7 +508,7 @@ const products = [
 
   {
     id: "19",
-    productName: "Apple Watch",
+    productName: "nord",
     imgUrl: productImg22,
     category: "cable",
     price: 399,
@@ -531,7 +531,7 @@ const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "Beat ",
     imgUrl: productImg23,
     category: "cable",
     price: 199,
@@ -554,7 +554,7 @@ const products = [
 
   {
     id: "22",
-    productName: "Beat EP Headphones",
+    productName: "Beat EP ",
     imgUrl: productImg25,
     category: "cable",
     price: 199,
@@ -577,7 +577,7 @@ const products = [
 
   {
     id: "23",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Rivet Bigelow  ",
     imgUrl: productImg26,
     category: "keyboard",
     price: 253,
